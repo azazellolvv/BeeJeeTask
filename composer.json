@@ -1,0 +1,11 @@
+{
+    "require": {
+        "rakit/validation": "^1.2"
+    },
+    "autoload": {
+        "psr-4": {
+            "controllers\\": "controllers",
+            "models\\": "models"
+        }
+    }
+}

@@ -1,0 +1,23 @@
+body {
+    padding: 30px;
+}
+.top-panel {
+    margin-bottom: 80px;
+}
+.float-right {
+    float: right;
+}
+.float-left {
+    float: left;
+}
+.but-logout {
+    margin-bottom: 30px;
+}
+.pagination {
+    text-align: center;
+}
+
+.pagination span {
+    background-color: #f5f5f5;
+    color: #999999;
+}
