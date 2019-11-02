@@ -1,4 +1,4 @@
-CREATE TABLE `task` (
+CREATE TABLE `tasks` (
   `name` CHAR(52) NOT NULL,
   `email` CHAR(52) NOT NULL PRIMARY KEY,
   `text` TEXT NOT NULL,
@@ -6,7 +6,7 @@ CREATE TABLE `task` (
   `adminEdit` INT(1) NOT NULL DEFAULT 0
 ) ENGINE=INNODB DEFAULT CHARSET=utf8;
 
-INSERT INTO `task` VALUES ('name1','name1@qwe.ty','do sdfsdf werwer', 0, 0);
-INSERT INTO `task` VALUES ('name2','name2@qwe.ty','do sdfsdf werwer', 0, 0);
-INSERT INTO `task` VALUES ('name3','name3@qwe.ty','do sdfsdf werwer', 0, 0);
+INSERT INTO `tasks` VALUES ('name1','name1@qwe.ty','do sdfsdf werwer', 0, 0);
+INSERT INTO `tasks` VALUES ('name2','name2@qwe.ty','do sdfsdf werwer', 0, 0);
+INSERT INTO `tasks` VALUES ('name3','name3@qwe.ty','do sdfsdf werwer', 0, 0);
 

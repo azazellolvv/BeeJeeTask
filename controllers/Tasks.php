@@ -54,8 +54,7 @@ class Tasks extends Controller
     {
         $validator = new Validator;
         $params['isEdit'] = false;
-
-var_dump($_POST);
+        
         if (!empty($_POST)) {
 
             if (isset($_POST['isEdit'])) {
